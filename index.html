@@ -4,29 +4,34 @@
   <meta charset="UTF-8">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <p>Student Researcher</p>
-  </header>
-
-  <section class="bio">
-    <h2>About Me</h2>
-    <p>I am SDU a student interested in Information Systems, databases, and how technology helps businesses operate more efficiently.</p>
-  </section>
-
-  <section class="skills">
-    <h2>Skills I'm Learning</h2>
-    <ul>
-      <li>HTML & CSS</li>
-      <li>Version Control with Git</li>
-      <li>CI/CD Pipelines</li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>Last Deployment: June 2025</p>
-  </footer>
+  <div class="hero">
+    <div class="content">
+      <div class="tag">Portfolio</div>
+      <h1>Your <span>Name</span></h1>
+      <p class="subtitle">Student Researcher · Information Systems</p>
+    </div>
+  </div>
+  <div class="content">
+    <div class="grid">
+      <div class="card">
+        <div class="card-label">About me</div>
+        <h2>Bio</h2>
+        <p>I am a student interested in Information Systems, databases, and how technology helps businesses operate more efficiently.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Currently learning</div>
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li><span class="dot"></span>HTML & CSS</li>
+          <li><span class="dot"></span>Version Control with Git</li>
+          <li><span class="dot"></span>CI/CD Pipelines</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer">Last Deployment: <span>June 2025</span></div>
 </body>
 </html>
